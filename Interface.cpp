@@ -1,55 +1,12 @@
-/*
-	Abou-Harb, Omar (team leader)
-	Tran, Ashley
-
-	CS A250
-	Project (Part D)
-
-	1. SELECTION NAME: Check serving and party size
-	2. PURPOSE: This selection will print a list of cookies,
-	ask the user to choose one, ask the user for their party
-	size, and determine if there is a sufficient number of servings. 
-	3. EXPECTED OUTPUT: 
-
---------------------------------------------------------------
-    COOKIE RECIPES
---------------------------------------------------------------
-
-Choose a cookie to check the serving size.
-
-    1: Lemon Square Bars
-    2: Biscotti
-    3: Nutella Brownies
-    4: Butter Snow Flakes
-    5: Chocolate Chip Cookies
-    6: Oatmeal Cookies
-    7: Walnut Tassies
-    8: Jam Thumbprints
-    9: Gingersnaps
-    10: Meringues
-    11: Pizzelles
-    12: Snickerdoodles
-
-Your choice: 10
-Your party size: 6
-
-    You have enough cookies for the party!
-
-	4. TEST CASES:
-			Choice 1 (first)
-			Choice 6 (something in the middle)
-			Choice 12 (last)
+/* 
+    All the functions in this file were collaboratively worked on and implemented
 */
-
 #include "Interface.h"
-
 
 #include <iostream>
 #include <string>
 
-
 using namespace std;
-
 
 // Definition function displayMenu
 void displayMenu()

@@ -62,6 +62,7 @@ void Cookie::printRecipe() const
     printIngredients();
 }
 
+// This funcition was collaboratively worked on. I wrote the original code, and Omar helped optimize it.
 void Cookie::printIngredients() const
 {
     cout << "Ingredients: " << *ingredients.begin();

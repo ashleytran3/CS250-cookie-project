@@ -7,7 +7,6 @@ using namespace std;
 
 int main() 
 {
-    //Part C
     CookieList cookieList1;
     createCookieList(cookieList1);
     displayMenu();

@@ -1,3 +1,13 @@
+/*
+    My Contributions: 
+        - Implemented 12 out of the 16 functions in this file
+        - Helped debug and optimize code
+
+    Collaborator's Contributions:
+        - Implemented checkSufficientServings(), ~CookieList(), CookieList(), and getCookieLocation()
+        - Helped debug and optimize code
+*/
+
 #include "CookieList.h"
 
 #include <iostream>
@@ -147,6 +157,7 @@ CookieList::CookieList(const CookieList &otherCookieList)
     count = otherCookieList.count;
 }
 
+// This funcition was collaboratively worked on. I wrote the original code, and Omar helped optimize it.
 CookieList &CookieList::operator=(const CookieList &otherCookieList)
 {
     if (&otherCookieList == this)
